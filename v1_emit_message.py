@@ -20,7 +20,7 @@ ch = conn.channel()
 # use the channel to declare a queue
 ch.queue_declare(queue="hello")
 # use the channel to publish a message to the queue
-ch.basic_publish(exchange="", routing_key="hello", body=message)
+ch.basic_publish(exchange="", routing_key="hello", body=Message)
 # print a message to the console for the user
 print(Message)
 # close the connection to the server
