@@ -3,6 +3,9 @@
 Always customize this docstring. 
 
 Add your name, date, and a description of the program.
+NAme: Elsa Ghirmazion
+Date: 29/Jan/2023
+Ran emoit_message so there was a message to receive
 
 Listens for messages on the queue.
 This process runs continously. 
@@ -25,7 +28,6 @@ Terminal Reminders
 - Use the up arrow to get the last command executed.
 
 """
-# Elsa GHIRMAZION, 27Jan2023, Streaming v1_listen_for_messages.py
 # you can add multiple imports on one line 
 # but we don't recommend it for readability
 import pika, sys, os
