@@ -36,11 +36,12 @@ import pika, sys, os
 # define a main function to run the program
 def main():
     # create a blocking connection to the RabbitMQ server
-    connection = pika.BlockingConnection(pika.ConnectionParameters(host='LocalHostt'))
+    connection = pika.BlockingConnection(pika.ConnectionParameters(host='LocalHost'))
     # use the connection to create a communication channel
     channel = connection.channel()
     # use the channel to declare a queue
     channel.queue_declare(queue='hello')
+
     # define a callback function to be called when a message is received
     def callback(ch, method, properties, body):
         print(" [x] Received %r" % body.decode())
