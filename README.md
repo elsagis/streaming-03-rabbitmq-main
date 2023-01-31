@@ -38,14 +38,14 @@ Once it runs and finishes, we can reuse the terminal.
 1. Run the file.
 
 You'll need to fix an error in the program to get it to run.
-Once it runs successfully, will it terminate on its own? How do you know? 
+Once it runs successfully, will it terminate on its own? How do you know? The process just waits to receive messages, so it will not terminate unless we force it to.
 As long as the process is running, we cannot use this terminal for other commands. 
 
 ## Version 1 - Open a New Terminal / Emit More Messages
 
 1. Open a new terminal window.
 1. Use this new window to emit more messages
-1. In v1_emit_message.py, modify the message. 
+1. In v1_emit_message.py, modify the message. I did
 1. Execute the script. 
 1. Watch what happens in the listening window.
 1. Do this several times to emit at least 3 different messages.
@@ -71,8 +71,11 @@ and a consistent, reusable approach to building code.
 
 Each of the version 2 programs include an error as well. 
 
-1. Find the error and fix it. 
+1. Find the error and fix it. localhostttt was used instead of localhost
 1. Compare the structure of the version 2 files. 
+- version 2 files both use the 'if name == "main"' idiom
+-They also both define reusable function with arguments
+- The receiver, which is more prone to errors, has a couple exception handlers.
 1. Modify the docstrings on all your files.
 1. Include your name and the date.
 1. Imports always go at the top, just after the file docstring.
@@ -83,8 +86,8 @@ Each of the version 2 programs include an error as well.
 1. A function may - or may not - return a value. 
 1. When we open a connection, we should close the connection. 
 1. Which of the 4 files will always close() the connection?
-1. Search GitHub for if __name__ == "__main__":
-1. How many hits did you get? 
+1. Search GitHub for if __name__ == "__main__": I found 660M code, 8M+ Commits, 23M Issues, 38K Discussions, 9 Packages, 0 Marketplace, 0 Topics, 252K Wikis, 0 Users
+1. How many hits did you get?  see above
 1. Learn and understand this common Python idiom.
 
 ## Reference
