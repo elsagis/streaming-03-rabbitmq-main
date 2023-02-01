@@ -99,5 +99,8 @@ Each of the version 2 programs include an error as well.
 Multiple_terminals.png
 
 ![Multiple_terminals](https://user-images.githubusercontent.com/105325747/215903514-71d08b19-b71f-4ab1-91ee-5732bd663f07.png)
+An extra a file of mine running on both Terminals.
+![process_streaming-03-bonus-Elsa](https://user-images.githubusercontent.com/105325747/215927652-80f349bd-b546-4433-92b2-c416859ba65b.png)
+
 
 ![Mac Example](screenshot.png)
