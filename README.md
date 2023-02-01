@@ -96,6 +96,8 @@ Each of the version 2 programs include an error as well.
 - [Using Python environments in VS Code](https://code.visualstudio.com/docs/python/environments)
 
 ## Multiple Terminals
+"C:\Users\15738\Documents\streaming-03-rabbitmq-main\Multiple_terminals.png"
+Multiple_terminals.png
 Multiple_terminals.png
 
 
